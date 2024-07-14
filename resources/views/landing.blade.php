@@ -26,7 +26,13 @@
                     <livewire:welcome.navigation />
                 @endif
             </header>
-
+            <main class="mt-6">
+                <div class="grid lg:grid-cols-1">
+                    <div id="welcome">
+                        <p>Hello</p>
+                    </div>
+                </div>
+            </main>
         </div>
     </div>
 </div>
