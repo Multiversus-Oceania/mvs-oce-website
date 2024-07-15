@@ -8,6 +8,7 @@ This is the website for MultiVersus Oceania.
 ```
 sudo dnf install php
 sudo dnf install composer
+sudo dnf install node
 ```
 
 2. Install other dependencies 
@@ -30,6 +31,8 @@ composer update
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
+npm i
+npm run build
 ```
 5. Run the project
 
