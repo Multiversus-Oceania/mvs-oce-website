@@ -9,12 +9,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    @auth
-                        {{ __("You're logged in!") }}
-                        <!-- Content for logged in users -->
-                    @else
-                        {{ __("Welcome to the MultiVersus OCE Community Website!") }}
-                    @endauth
+                    {{__('Dashboard WIP')}}
                 </div>
             </div>
         </div>
